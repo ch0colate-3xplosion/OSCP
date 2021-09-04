@@ -5,7 +5,7 @@
 
 1. [Bashed](./HTB/bashed/bashed.md) [ `PHP Bash`, `Scheduled task` ]
 2. [Popcorn](./HTB/popcorn/popcorn.md) [ `Image upload vulnerability`, `MOTD File Tampering` ]
-3. [Celestial](./HTB/celestail/celestail.md) [ `Node deserialization attack`, `Scheduled task,` `syslogs` ]
+3. [Celestial](./HTB/celestial/celestial.md) [ `Node deserialization attack`, `Scheduled task,` `syslogs` ]
 
 4. [Nibbles](./HTB/nibbles/nibbles.md) [ `Image upload`,`Default creds` `opensource/git` `sudoer`  `sudoer file` ] 
 
