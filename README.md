@@ -7,7 +7,7 @@
 2. [Popcorn](./HTB/popcorn/popcorn.md) [ `Image upload vulnerability`, `MOTD File Tampering` ]
 3. [Celestial](./HTB/celestail/celestail.md) [ `Node deserialization attack`, `Scheduled task,` `syslogs` ]
 
-4. [Nibbles](./HTB/nibbles/nibbles.md) [ `Image upload`,`Default creds` `opensource/git` `sudoer`  `sudoer file` ]
+4. [Nibbles](./HTB/nibbles/nibbles.md) [ `Image upload`,`Default creds` `opensource/git` `sudoer`  `sudoer file` ] 
 
 
 
