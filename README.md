@@ -8,13 +8,15 @@
 3. [Celestial](./HTB/celestial/celestial.md) [ `Node deserialization attack`, `Scheduled task,` `syslogs` ]
 
 4. [Nibbles](./HTB/nibbles/nibbles.md) [ `Image upload`,`Default creds` `opensource/git` `sudoer`  `sudoer file` ] 
-
+5. [Cronos](./HTB/cronos/cronos.md) [ `dig DNS`,`command injection` `Scheduled task laravel PHP` ]
+6. [Lame](./HTB/lame/lame.md) [ `smb 3.0.2` `usermapscript command execution` ]
 
 
 
 ### Windows
 1. [Granny](./HTB/granny/granny.md) [ `HTTP verb tampering`, `PUT`, `MOVE`, `ms15_051_client_copy_image`, `IIS 6.0` ]
 2. [Grandpa](./HTB/grandpa/grandpa.md) [ `HTTP verb tampering`, `PUT`, `MOVE`, `ms14_070_tcpip_ioctl`, `IIS 6.0` ]
+3. [Optimum](./HTB/optimum/optimum.md) [ `rejetto HTTPFileServer`, `Exploit suggestor` ]
 
 
 
