@@ -11,6 +11,8 @@
 5. [Cronos](./HTB/cronos/cronos.md) [ `dig DNS`,`command injection` `Scheduled task laravel PHP` ]
 6. [Lame](./HTB/lame/lame.md) [ `smb 3.0.2` `usermapscript command execution` ]
 
+7. [Mirai](./HTB/mirai/mirai.md) [ `default pi credentails` `grep` ]
+8. [beep](./HTB/beep/beep.md) [ `LFI`  `SMTP`  `SMTP to RFI` ]
 
 
 ### Windows
@@ -18,6 +20,7 @@
 2. [Grandpa](./HTB/grandpa/grandpa.md) [ `HTTP verb tampering`, `PUT`, `MOVE`, `ms14_070_tcpip_ioctl`, `IIS 6.0` ]
 3. [Optimum](./HTB/optimum/optimum.md) [ `rejetto HTTPFileServer` `command execuation` `manual   +   metasploit`   `Exploit suggestor` ]
 3. [Devel](./HTB/devel/devel.md) [ `anonymous ftp` `msfvenom shell upload` `metasploit`   `Exploit suggestor` ]
+4. [Legacy](./HTB/legacy/legacy.md) [ `MS08-067` `windows XP` `metasploit`   `CVE-2008-4250` ]
 
 
 
