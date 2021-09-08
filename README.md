@@ -12,7 +12,8 @@
 6. [Lame](./HTB/lame/lame.md) [ `smb 3.0.2` `usermapscript command execution` ]
 
 7. [Mirai](./HTB/mirai/mirai.md) [ `default pi credentails` `grep` ]
-8. [beep](./HTB/beep/beep.md) [ `LFI`  `SMTP`  `SMTP to RFI` ]
+8. [Beep](./HTB/beep/beep.md) [ `LFI`  `SMTP`  `SMTP to RFI` ]
+9. [Traverxec](./HTB/traverxec/traverxec.md) [ `nostromo 1.9.6 RCE` `ssh2john.py`  `journalctl gtfo binary`   ]
 
 
 ### Windows
