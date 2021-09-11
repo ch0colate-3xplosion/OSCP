@@ -22,6 +22,7 @@
 3. [Optimum](./HTB/optimum/optimum.md) [ `rejetto HTTPFileServer` `command execuation` `manual   +   metasploit`   `Exploit suggestor` ]
 3. [Devel](./HTB/devel/devel.md) [ `anonymous ftp` `msfvenom shell upload` `metasploit`   `Exploit suggestor` ]
 4. [Legacy](./HTB/legacy/legacy.md) [ `MS08-067` `windows XP` `metasploit`   `CVE-2008-4250` ]
+5. [Remote](./HTB/remote/remote.md) [ `nfs mount` `sdf file/binary` `umbraco authenticated RCE`  `service misconfiguration`  `CVE-2008-4250` ]
 
 
 
