@@ -12,7 +12,7 @@
 7. [Mirai](./HTB/mirai/mirai.md) [ `default pi credentails` `grep` ]
 8. [Beep](./HTB/beep/beep.md) [ `LFI`  `SMTP`  `SMTP to RFI` ]
 9. [Traverxec](./HTB/traverxec/traverxec.md) [ `nostromo 1.9.6 RCE` `ssh2john.py`  `journalctl gtfo binary`   ]
-10. [Academy](./HTB/academy/academy.md) [ `parameter tampering`  `laravel RCE` `metasploit` `adm group user` `aureport` `log analysis` `composer gtfo binary` ]
+10. [Academy](./HTB/academy/academy.md) [ `parameter tampering`  `laravel RCE` `adm group user` `aureport` `log analysis` `composer` ]
 
 
 
