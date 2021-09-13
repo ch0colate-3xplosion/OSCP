@@ -14,6 +14,7 @@
 9. [Traverxec](./HTB/traverxec/traverxec.md) [ `nostromo 1.9.6 RCE` `ssh2john.py`  `journalctl gtfo binary`   ]
 10. [Academy](./HTB/academy/academy.md) [ `parameter tampering`  `laravel RCE` `adm group user` `aureport` `log analysis` `composer` ]
 11. [Time](./HTB/timer/timer.md)[`CVE-2019-12384 Jackson RCE And SSRF`, `scheduled task`]
+12. [Blunder](./HTB/blunder/blunder.md)[`login brute force` `CSRF` `Bypass IP blacklist` `metasploit image upload authenticated` `sudoer` `CVE-2019-14287`]
 
 
 ### Windows
