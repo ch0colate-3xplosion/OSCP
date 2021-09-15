@@ -16,6 +16,8 @@
 11. [Time](./HTB/timer/timer.md)  [`CVE-2019-12384 Jackson RCE And SSRF`, `scheduled task`]
 12. [Blunder](./HTB/blunder/blunder.md) [`login brute force` `CSRF` `Bypass IP blacklist` `metasploit image upload authenticated` `sudoer` `CVE-2019-14287`]
 13. [Magic](./HTB/magic/magic.md)  [`Magic bytes image upload`,`sql injection` `SUID binary` `ltrace`]
+14. [Waldo](./HTB/waldo/waldo.md)  [`directory and file traversal`,`bypassing filters` `escaping rbash` `linux capabilities` `tac cap_dac read_search+ei`]
+
 
 
 ### Windows
