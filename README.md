@@ -6,7 +6,7 @@
 1. [Bashed](./HTB/bashed/bashed.md) [ `PHP Bash`, `Scheduled task` ]
 2. [Popcorn](./HTB/popcorn/popcorn.md) [ `Image upload vulnerability`, `MOTD File Tampering` ]
 3. [Celestial](./HTB/celestial/celestial.md) [ `Node deserialization attack`, `Scheduled task,` `syslogs` ]
-4. [Nibbles](./HTB/nibbles/nibbles.md) [ `Image upload`,`Default creds` `opensource/git` `sudoer`  `sudoer file` ] 
+4. [Nibbles](./HTB/nibbles/HTB-nibbles.md) [ `Image upload`,`Default creds` `opensource/git` `sudoer`  `sudoer file` ] 
 5. [Cronos](./HTB/cronos/cronos.md) [ `dig DNS`,`command injection` `Scheduled task laravel PHP` ]
 6. [Lame](./HTB/lame/lame.md) [ `smb 3.0.2` `usermapscript command execution` ]
 7. [Mirai](./HTB/mirai/mirai.md) [ `default pi credentails` `grep` ]
