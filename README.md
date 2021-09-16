@@ -19,7 +19,8 @@
 14. [Waldo](./HTB/waldo/waldo.md)  [`directory and file traversal` `bypassing filters` `escaping rbash` `linux capabilities` `tac cap_dac read_search+ei`]
 
 14. [Solidstate](./HTB/solidstate/solidstate.md)  [`POP3` `SIP` `rbash` `schedules task` ]
-14. [Irked](./HTB/irked/irked.md)  [`UnrealIRCd` `steghide` `SUID binary` ]
+15. [Irked](./HTB/irked/irked.md)  [`UnrealIRCd backdoor command injection` `steghide` `SUID binary` ]
+16. [Valentine](./HTB/valentine/valentine.md)  [`Heartbleed` `TMUX socket session` ]
 
 
 
