@@ -19,6 +19,7 @@
 14. [Waldo](./HTB/waldo/waldo.md)  [`directory and file traversal` `bypassing filters` `escaping rbash` `linux capabilities` `tac cap_dac read_search+ei`]
 
 14. [Solidstate](./HTB/solidstate/solidstate.md)  [`POP3` `SIP` `rbash` `schedules task` ]
+14. [Irked](./HTB/irked/irked.md)  [`UnrealIRCd` `steghide` `SUID binary` ]
 
 
 
