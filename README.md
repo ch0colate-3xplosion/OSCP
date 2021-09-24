@@ -21,6 +21,7 @@
 14. [Solidstate](./HTB/solidstate/solidstate.md)  [`POP3` `SIP` `rbash` `schedules task` ]
 15. [Irked](./HTB/irked/irked.md)  [`UnrealIRCd backdoor command injection` `steghide` `SUID binary` ]
 16. [Valentine](./HTB/valentine/valentine.md)  [`Heartbleed` `TMUX socket session` ]
+17. [Writeup](./HTB/writeup/writeup.md)  [`cms made simple` `sql injection` `staff group` `pspy` ]
 
 
 
