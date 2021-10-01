@@ -23,6 +23,8 @@
 16. [Valentine](./HTB/valentine/valentine.md)  [`Heartbleed` `TMUX socket session` ]
 17. [Writeup](./HTB/writeup/writeup.md)  [`cms made simple` `sql injection` `staff group` `pspy` ]
 
+18. [Mango](./HTB/mango/mango.md)  [`nosql injection` `jjs suid binary` ]
+
 
 
 ### Windows
