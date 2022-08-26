@@ -6,6 +6,7 @@ __Machine IP: 10.10.10.215__
 ## Scanning
 
 ### Nmap Scanning
+- Default scan
 
 ```bash
 $ nmap -sC -sV  -oN nmap/academy  10.10.10.215
