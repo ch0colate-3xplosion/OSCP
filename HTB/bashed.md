@@ -23,7 +23,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 
 - Home page
 
-![homepage](images/homepage.PNG)
+![homepage](../images/bashed/homepage.PNG)
 
 - No other pages seem to work, so run dirbuster
 
