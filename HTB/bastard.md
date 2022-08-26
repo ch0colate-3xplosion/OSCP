@@ -37,7 +37,7 @@ Nmap done: 1 IP address (1 host up) scanned in 73.95 seconds
 
 __Web home page__
 
-![Homepage](images/Homepage.PNG)
+![Homepage](../images/bastard/Homepage.PNG)
 
 On looking at `robots.txt` found `CHANGELOG.txt` containing the Drupal version
 
