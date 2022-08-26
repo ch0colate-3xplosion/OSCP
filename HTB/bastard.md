@@ -39,7 +39,7 @@ __Web home page__
 
 ![Homepage](../images/bastard/Homepage.PNG)
 
-On looking at `robots.txt` found `CHANGELOG.txt` containing the Drupal version
+Ons looking at `robots.txt` found `CHANGELOG.txt` containing the Drupal version
 
 - FOund an exploit on searchsploit
 
