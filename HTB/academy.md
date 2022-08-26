@@ -70,33 +70,33 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
 
 - Homepage
 
-![homepage](images/homepage.PNG)
+![homepage](../images/academy/homepage.PNG)
 
 - On `register` page, request is caprtured and have one suspicious paramter sent along `roleid`
 
-![register](images/register.PNG)
+![register](../images/academy/register.PNG)
 
 - when `roleid=0`, homepage
 
-![login_success](images/login_success.PNG)
+![login_success](../images/academy/login_success.PNG)
 
 - Register another account , with  modified   `roleid=1`
 
 - `Register` Request payload
 
-![roleid_1_register](images/roleid_1_register.PNG)
+![roleid_1_register](../images/academy/roleid_1_register.PNG)
 
 - Account created successfully, now navigate to `admin.php` and log in with the registered account.
 
 - Homepage 
 
-![admin_page](images/admin_page.PNG)
+![admin_page](../images/academy/admin_page.PNG)
 
 - found another domain `dev-staging-01.academy.htb`, add it to `/etc/hosts`
 
 - `dev-staging-01.academy.htb` homepage
 
-![dev_page](images/dev_page.PNG)
+![dev_page](../images/academy/dev_page.PNG)
 
 - On examining we can notice that server is runnning `laravel`, and on `searchsploit` found a metasploit module for code execution  (`token Unserialize Remote Command Execution`)
 
@@ -202,11 +202,11 @@ $
 
 - on running `linpeas`, found `DBPASSWORD` 
 
-![linpeas](images/linpeas.PNG)
+![linpeas](../images/academy/linpeas.PNG)
 
 
 lin:x:1005:1005::/home/g0blin:/bin/sh
-```
+
 - using this password we are unable to connect to db, so resued this as `ssh` with all the users in the system
 
 - users in the system 
@@ -234,7 +234,7 @@ uid=1002(cry0l1t3) gid=1002(cry0l1t3) groups=1002(cry0l1t3),4(adm)
 
 - We can see the user is part of `adm` group that means we can read the log files
 
-![logs](images/logs.PNG)
+![logs](../images/academy/logs.PNG)
 
 - Since there are many logs, we can use a tool called `aureport`, to parse all log files
 
@@ -274,11 +274,11 @@ Number of events: 116768
 
 - `aureport` man page
 
-![aureport](images/aureport.PNG)
+![aureport](../images/academy/aureport.PNG)
 
 - use `--tty` option to read keystrokes
 
-![aureport_tty.PNG](images/aureport_tty.PNG)
+![aureport_tty.PNG](../images/academy/aureport_tty.PNG)
 
 - we can see credentials for `mrb3n`
 
@@ -308,7 +308,7 @@ User mrb3n may run the following commands on academy:
 
 - `gtfobins` has a way to abuse this functionality to elevetae privileges
 
-![composer](images/composer.PNG)
+![composer](../images/academy/composer.PNG)
 
 
 
